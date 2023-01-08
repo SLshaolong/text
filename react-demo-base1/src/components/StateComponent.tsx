@@ -23,6 +23,7 @@ export default class StateComponent extends Component<any,any>{
             count:this.state.count+1
         })
     }
+    
     render(): ReactNode {
         console.log('渲染函数');
         

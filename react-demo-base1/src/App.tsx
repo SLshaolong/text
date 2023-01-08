@@ -1,6 +1,7 @@
 import FirstComponent from "./components/FirstComponet";
 import SecondComponent from "./components/SecondComponent";
 import StateComponent from "./components/StateComponent";
+import InputComponent from "./components/InputComponent1";
 import { useState } from "react";
 function App() {
   let [count, setCount] = useState('')
@@ -67,6 +68,8 @@ function App() {
       <br />
       <hr />
       <StateComponent/>
+      <br />
+      <InputComponent/>
     </div>
 
   )
