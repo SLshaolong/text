@@ -4,3 +4,6 @@
 ## 组件的生命周期
 1. src: `https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/`
 
+## react虚拟滚动库
+`npm install react-virtualized `
+
